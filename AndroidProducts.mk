@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_garlic.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_garlic-eng \
+    lineage_garlic-user \
+    lineage_garlic-userdebug

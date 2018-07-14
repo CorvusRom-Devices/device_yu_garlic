@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/yu/garlic
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := garlic
+
 # Kernel
 TARGET_KERNEL_CONFIG := garlic-perf_defconfig
 

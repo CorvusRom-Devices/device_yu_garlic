@@ -183,8 +183,8 @@ vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so
 bin/gx_fpd
 lib64/libfpservice.so
 lib64/libfp_client.so
-lib64/hw/fingerprint.goodix.default.so
-lib64/hw/fingerprint.elan.default.so
+lib64/hw/fingerprint.goodix.default.so:lib64/hw/fingerprint.goodix.so
+lib64/hw/fingerprint.elan.default.so:lib64/hw/fingerprint.elan.so
 lib64/hw/gxfingerprint.default.so
 lib64/libfpnav.so
 

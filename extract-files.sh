@@ -19,7 +19,7 @@ set -e
 
 # Required!
 export DEVICE=garlic
-export VENDOR=yu
+export VENDOR_DEVICE=yu
 export DEVICE_COMMON=msm8937-common
 export VENDOR_COMMON=tinno
 

@@ -183,14 +183,14 @@ vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so
 vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so
 vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so
 
-# Fingerprint - from hs3
-bin/gx_fpd|923ec1d0b28924c337a105495dfe08155cc1235d
+# Fingerprint
+bin/gx_fpd
+lib64/libfpservice.so
+lib64/libfp_client.so
+lib64/hw/fingerprint.goodix.default.so
 lib64/hw/fingerprint.elan.default.so
-lib64/hw/fingerprint.goodix.default.so|0de0b101b7ab3ab1066877084a2ae8f2b4c02118
-lib64/libgf_algo.so|362daa64a554302b95914c333dc355fa89f5b7ea
-lib64/libgf_ca.so|5fbdc25faac00018123d020d61ea2b62b8db9744
-lib64/libgf_hal.so|dd5b16393eb8b94f23c19ab2032260e4850c5e72
-lib64/libgoodixfingerprintd_binder.so|776b9afc9d400aad459b0c1df37ebdfefd2267aa
+lib64/hw/gxfingerprint.default.so
+lib64/libfpnav.so
 
 # Sensors
 lib/hw/sensors.msm8937.so

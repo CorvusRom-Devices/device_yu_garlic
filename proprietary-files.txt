@@ -7,10 +7,6 @@ etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
-# Audio HAL
-lib/hw/audio.primary.msm8937.so
-lib64/hw/audio.primary.msm8937.so
-
 # Camera
 vendor/lib/libmmcamera_imx258_guangbao_p7201.so
 vendor/lib/libmmcamera_imx258_sunny_p7201.so
@@ -191,10 +187,6 @@ lib64/hw/fingerprint.goodix.default.so
 lib64/hw/fingerprint.elan.default.so
 lib64/hw/gxfingerprint.default.so
 lib64/libfpnav.so
-
-# Sensors
-lib/hw/sensors.msm8937.so
-lib64/hw/sensors.msm8937.so
 
 # Thermal
 etc/thermal-engine.conf

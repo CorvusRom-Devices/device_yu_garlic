@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/msm8937_camera_p7201.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8937_camera_c800.xml \
+    $(LOCAL_PATH)/configs/camera/msm8937_camera_p7201.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8937_camera_p7201.xml \
     $(LOCAL_PATH)/configs/camera/imx258_guangbao_p7201_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_guangbao_p7201_chromatix.xml \
     $(LOCAL_PATH)/configs/camera/imx258_sunny_p7201_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_sunny_p7201_chromatix.xml \
     $(LOCAL_PATH)/configs/camera/ov8856_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8856_chromatix.xml \

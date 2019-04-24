@@ -179,6 +179,10 @@ vendor/lib/libmmcamera_p7201_sunny_imx258_otp_eeprom.so|b264cbcee4941a5f92dd8fcb
 vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so|a6b332eb1febbb32a891c9c4a450d712996b8a91
 vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so|324138ba7ec803413649338639d2280f7d8490d1
 
+# Lights
+vendor/lib/hw/lights.msm8937.so
+vendor/lib64/hw/lights.msm8937.so
+
 # Fingerprint - from U-FEEL-PRIME-V01.31.OPE.20-[Nougat-7.1]-P7201AN
 vendor/bin/gx_fpd|715ae7b21b3c8ba09386530522be3305ae1c9304
 vendor/lib64/libfpservice.so|d6c48a6a2e1ebd44944013bf57716601de8319ac

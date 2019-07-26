@@ -22,7 +22,7 @@ DEVICE_PATH := device/yu/garlic
 TARGET_OTA_ASSERT_DEVICE := garlic
 
 # Kernel
-TARGET_KERNEL_CONFIG := garlic-perf_defconfig
+TARGET_KERNEL_CONFIG := garlic_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth

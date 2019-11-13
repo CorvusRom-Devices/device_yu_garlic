@@ -1,7 +1,7 @@
-audio.dolby.ds2.enabled=true
-audio.dolby.ds2.hardbypass=true
-audio.offload.track.enable=false
-ro.config.swap=true
-ro.config.zram=false
+vendor.audio.dolby.ds2.enabled=true
+vendor.audio.dolby.ds2.hardbypass=true
+vendor.audio.offload.track.enable=false
+ro.vendor.qti.config.swap=true
+ro.vendor.qti.config.zram=false
 ro.cutoff_voltage_mv=3400
-ro.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_enable=true

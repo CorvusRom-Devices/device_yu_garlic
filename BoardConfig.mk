@@ -34,16 +34,8 @@ TARGET_PROVIDES_LIBLIGHT := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5003804672
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24892644352
 
-BOARD_ROOT_EXTRA_SYMLINKS += /mnt/vendor/persist:/persist
-BOARD_ROOT_EXTRA_FOLDERS := firmware dsp
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
-# Recovery
-ifneq ($(WITH_TWRP),true)
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
-endif
 
 # Inherit from the proprietary version
 -include vendor/yu/garlic/BoardConfigVendor.mk

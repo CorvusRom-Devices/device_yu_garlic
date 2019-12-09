@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_garlic.mk
+    $(LOCAL_DIR)/stag_garlic.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_garlic-eng \
-    lineage_garlic-user \
-    lineage_garlic-userdebug
+    stag_garlic-eng \
+    stag_garlic-user \
+    stag_garlic-userdebug

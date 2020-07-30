@@ -25,12 +25,12 @@ $(call inherit-product, device/yu/garlic/device.mk)
 $(call inherit-product, device/tinno/msm8937-common/msm8937.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := garlic
-PRODUCT_NAME := stag_garlic
+PRODUCT_NAME := lineage_garlic
 PRODUCT_BRAND := yu
 PRODUCT_MODEL := YU Yureka Black
 PRODUCT_MANUFACTURER := yu

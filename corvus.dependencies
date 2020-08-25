@@ -1,0 +1,32 @@
+[
+  {
+    "remote": "github",
+    "repository":  "CorvusRom-Devices/kernel_tinno_msm8937",
+    "target_path": "kernel/tinno/msm8937",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "CorvusRom-Devices/vendor_yu",
+    "target_path": "vendor/yu",
+    "branch": "10"
+  },
+   {
+    "remote": "github",
+    "repository": "CorvusRom-Devices/vendor_tinno",
+    "target_path": "vendor/tinno",
+    "branch": "10"
+  },
+  { 
+    "remote": "github",
+    "repository": "CorvusRom-Devices/device_yu_garlic",
+    "target_path": "device/yu/garlic",
+    "branch": "10"
+  },
+   { 
+    "remote": "github",
+    "repository": "CorvusRom-Devices/device_tinno_msm8937-common",
+    "target_path": "device/tinno/msm8937-common",
+    "branch": "10"
+  }
+]
